@@ -1,17 +1,53 @@
-body {
-  background-image: https://drive.google.com/file/d/1Axvh_3BLsImkz-pXvFYDRsWipNIfiLu7/view;
-  background-size: cover; /* Це дозволить зображенню покривати весь екран */
-  background-position: center center; /* Центрує зображення */
-  background-attachment: fixed; /* Фіксує фон при скролінгу */
-}
-
-
 <!DOCTYPE html>
 <html lang="uk">
 <head>
   <meta charset="UTF-8">
   <title>Відео</title>
   <link rel="stylesheet" href="css/style.css">
+  <style>
+    body {
+      background-image: url('https://drive.google.com/uc?export=view&id=1Axvh_3BLsImkz-pXvFYDRsWipNIfiLu7');
+      background-size: cover; /* Це дозволить зображенню покривати весь екран */
+      background-position: center center; /* Центрує зображення */
+      background-attachment: fixed; /* Фіксує фон при скролінгу */
+      color: white; /* Колір тексту для кращої видимості на темному фоні */
+      font-family: Arial, sans-serif; /* Для кращої типографіки */
+      margin: 0;
+      padding: 0;
+    }
+
+    h1 {
+      text-align: center;
+      padding-top: 20px;
+      font-size: 36px;
+    }
+
+    .video-container {
+      text-align: center;
+      margin: 20px 0;
+    }
+
+    iframe {
+      border: none;
+    }
+
+    a {
+      display: block;
+      text-align: center;
+      padding: 10px;
+      font-size: 18px;
+      text-decoration: none;
+      color: white;
+      background-color: #333;
+      width: 100px;
+      margin: 20px auto;
+      border-radius: 5px;
+    }
+
+    a:hover {
+      background-color: #555;
+    }
+  </style>
 </head>
 <body>
   <h1>Відеоматеріали</h1>
